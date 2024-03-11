@@ -1,0 +1,93 @@
+.medianav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: "12px";
+}
+
+.medianav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav img {
+  /* text-align: start; */
+  width: 10rem;
+}
+
+.nav {
+  background-color: black;
+  padding: 0rem 1rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.connect-grid {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav .active {
+  color: #49fffd;
+  /* color: #a511f0; */
+}
+
+.nav li {
+  border: 1px solid rgb(0, 0, 0, 0);
+  transition: border 0.2s;
+}
+
+.nav li:hover {
+  border-bottom: 1px solid #49fffd;
+  /* border-bottom: 1px solid #a511f0; */
+}
+
+/* ################## RAINBOWKIT BUTTON ################## */
+
+/* ############# Connect Button ############# */
+
+/* .iekbcc0.iekbcc9.ju367v73.ju367v7o.ju367v9c.ju367vn.ju367vec.ju367vex.ju367v11.ju367v1c.ju367v2b.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6 {
+  background: #49fffd;
+  text-shadow: 1px 1px 4px black;
+
+  background: #a511f0;
+} */
+
+/* ############# Network Button ############# */
+
+.iekbcc0.iekbcc9.ju367v71.ju367v7m.ju367v86.ju367v6f.ju367v4.ju367v9x.ju367vn.ju367vec.ju367vfo.ju367vb.ju367va.ju367v11.ju367v1c.ju367v1k.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6 {
+  background: #a511f0;
+}
+
+/* ############# Wallet Button ############# */
+
+/* .iekbcc0.iekbcc9.ju367v4.ju367v9x.ju367vn.ju367vec.ju367vfo.ju367va.ju367v11.ju367v1c.ju367v8o._12cbo8i3.ju367v8m._12cbo8i4._12cbo8i6 {
+  background: #a511f0;
+} */
+
+/* .iekbcc0.ju367v86.ju367v6f.ju367v72.ju367v7l.ju367v9.ju367v6 {
+  color: #a511f0;
+} */
+
+.iekbcc0.ju367v70.ju367v7l.ju367v85.ju367v6e.ju367va3.ju367vcf.ju367vn.ju367vt.ju367vw.ju367vfo.ju367v11.ju367v1c.ju367v8o {
+  background: #a511f0;
+}

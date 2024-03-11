@@ -1,0 +1,61 @@
+.dashboard {
+  margin: 5rem 7.5rem;
+  padding: 1.2rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.5rem;
+
+  /* background: linear-gradient(to bottom right, #4255f9, #49fffd); */
+  background: linear-gradient(to bottom right, #4255f9, #a511f0);
+
+  font-weight: 1000;
+  font-size: large;
+}
+
+.text {
+  color: #a6ade7;
+}
+
+.supplyBalance {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pollsCounter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.btn-custom {
+  background-color: #0c0b22;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-custom:hover {
+  background-color: #00003cb0;
+  border: none;
+}
+
+/* .buttonClass {
+  background-color: #0c0b22;
+  border: none;
+  border-radius: 10px;
+}
+
+.buttonClass:hover {
+  background-color: #00003c;
+  transition: 0.2s;
+} */
+
+/* .past {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.incoming {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+} */

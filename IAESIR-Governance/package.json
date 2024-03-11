@@ -1,0 +1,22 @@
+{
+  "name": "thor-smart-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "toolbox": "docker run -it --rm -v $PWD:/src trailofbits/eth-security-toolbox",
+    "echidna": "docker run -it --rm -v $PWD:/src ghcr.io/crytic/echidna/echidna",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.0.3"
+  }
+}

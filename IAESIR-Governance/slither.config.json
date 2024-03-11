@@ -1,0 +1,4 @@
+{
+  "detectors_to_exclude": "naming-convention,different-pragma-directives-are-used",
+  "exclude_dependencies": true
+}

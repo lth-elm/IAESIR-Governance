@@ -1,0 +1,51 @@
+.voteDisplay {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.sendVote {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.displayVote {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.g-4.gy-4 {
+  gap: 3rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: linear-gradient(to bottom right, #4255f9, #49fffd);
+  margin: 1.5rem;
+
+  /* background: linear-gradient(to bottom right, #4255f9, #a511f0); */
+}
+
+.card:hover {
+  background: linear-gradient(to bottom right, #4255f9, #a511f0);
+
+  /* transition: background 0.2s; */
+
+  /* background: linear-gradient(to bottom right, #4255f9, #49fffd); */
+}
+
+.card:hover .voteHover {
+  color: #49fffd;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

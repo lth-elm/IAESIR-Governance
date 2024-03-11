@@ -1,0 +1,33 @@
+name: Echidna Test
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Compile contracts
+        run: npx hardhat compile
+
+      - name: Run Echidna
+        uses: crytic/echidna-action@v2
+        with:
+          solc-version: 0.8.16
+          files: contracts/test/fuzzing/FuzzTest.sol
+          contract: TokenFuzzTest
+          config: contracts/test/fuzzing/config.yml
+          crytic-args: --hardhat-ignore-compile --solc-remaps @openzeppelin/contracts=node_modules/@openzeppelin/contracts

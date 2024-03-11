@@ -1,0 +1,15 @@
+version: "3"
+
+networks:
+  governance:
+
+services:
+  governance:
+    build: ./client
+    # env_file: ../.env
+    container_name: governance-app
+    restart: always
+    ports:
+      - "8080:8080"
+    networks:
+      - governance

@@ -1,0 +1,46 @@
+.App {
+  /* background-color: #282c34; */
+  background: #0c0b22; /* linear-gradient(#0c0b22, #a511f0); */ /* to bottom right */
+  text-align: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  padding: 0rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.BodyProtocol {
+  padding: 1rem 3rem;
+}
+
+/* .CloseModal {
+  background-color: #a9a9aa;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.CloseModal:hover {
+  background-color: #6c757d;
+} */
